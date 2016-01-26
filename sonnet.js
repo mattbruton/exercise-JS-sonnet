@@ -25,7 +25,7 @@ console.log("sonnet length",sonnet.length );
 //replaces ALL instances of "the" with "a large" -- leads to some interesting lines. Can modify to be more specific
 //with /the /g or a couple other variations depending on what is really being asked here.
 var largeChange = winterChange.replace(/the/g, "a large");
-console.log("test", largeChange);
+console.log("replace 'the' with 'a large'", largeChange);
 
 //setting content of div to match all changes made up until this point.
 sonnetDiv = largeChange;
