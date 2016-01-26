@@ -30,7 +30,3 @@ console.log("replace 'the' with 'a large'", largeChange);
 //setting content of div to match all changes made up until this point.
 sonnetDiv = largeChange;
 document.getElementById("sonnet").innerHTML = sonnetDiv;
-
-// console.log("Orphans starting position", orphanStart);
-// console.log("sonnet length",sonnet.length );
-// console.log("test", largeChange);
