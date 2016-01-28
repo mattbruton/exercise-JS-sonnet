@@ -18,13 +18,15 @@ And, thou away, the very birds are mute: \
 var orphanStart = sonnetDiv.indexOf("orphans");
 console.log("Orphans starting position", orphanStart);
 
+//log total number of characters in sonnet
+console.log("sonnet length",sonnetDiv.length );
+
 //Changing the first instance of "winter" with "yuletide"
 var winterChange = sonnetDiv.replace("winter", "yuletide");
-console.log("sonnet length",sonnet.length );
 
 //replaces ALL instances of "the" with "a large" -- leads to some interesting lines. Can modify to be more specific
 //with /the /g or a couple other variations depending on what is really being asked here.
-var largeChange = winterChange.replace(/the/g, "a large");
+var largeChange = winterChange.replace(/the(\b)/g, "a large");
 console.log("replace 'the' with 'a large'", largeChange);
 
 //setting content of div to match all changes made up until this point.
