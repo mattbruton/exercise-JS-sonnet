@@ -1,4 +1,4 @@
-//base string before modification
+//base string before modification.
 var sonnetDiv = "How like a winter hath my absence been \
 From thee, the pleasure of the fleeting year! \
 What freezings have I felt, what dark days seen! \
